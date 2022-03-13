@@ -1,0 +1,31 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.footer-item{
+    background-color: #171717;
+    display: flex;
+    color: gray;
+
+}
+
+.footer-item-1{
+    border-bottom: 1px solid #202124;
+}
+
+.footer-item-2{
+    justify-content: space-between;
+}
+
+.footer-item-left{
+    display: flex;
+}
+
+.footer-item-right{
+    display: flex;
+}
+
+.footer-items{
+    padding: 15px;
+}
