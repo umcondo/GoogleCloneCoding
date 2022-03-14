@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 body {
     background-color: #202124;
     color:white;
@@ -7,7 +11,7 @@ body {
     height:100%;
     margin:0;
 }
-header {
+/* header {
     height: 10%;
 }
 
@@ -17,7 +21,7 @@ main {
 
 footer {
     height: 20%;
-}
+} */
 a:hover {
     text-decoration: underline;
 }
@@ -25,4 +29,10 @@ a:hover {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.body-container{
+    display: flex;
+    flex-direction: column;
+    height:100%;
 }

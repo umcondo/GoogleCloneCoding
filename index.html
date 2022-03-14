@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
+    <script src="https://kit.fontawesome.com/2e802f42d3.js" crossorigin="anonymous"></script>
     <title>Google</title>
 </head>
 <body>
+    <div class="body-container">
     <!-- 헤더 -->
-    <header>
+    <!-- <header> -->
         <div class="header-container">
             <div class="header-item-1">
                 <div class="header-item-left"><a href="/">Google 정보</a></div>
@@ -26,23 +28,31 @@
                 <div class="header-item-right"><button>로그인</button></div>
             </div>
         </div>
-    </header>
+    <!-- </header> -->
 
-    <main>
+    <!-- <main> -->
         <div class="main-container">
             <div class="main-img"><img src="img/구글.png" alt="구글"></div>
             <div class="main-search">
-                <input type="text" placeholder="검색어 입력">
+                <!-- 서치바만들기 -->
+                <div class=google-search>
+                    <div class=search-items style="font-size:20px;color:gray;"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <div class=search-items><input class=search-bar type="text"></div>
+                    <!-- <div class=search-items style="display:flex;"> -->
+                        <div class=search-items style="font-size:25px;color:gray;"><i class="fa-solid fa-keyboard"></i></div>
+                        <div class=search-items style="font-size:25px;color:blue;"><i class="fa-solid fa-microphone-lines"></i></div>
+                    <!-- </div> -->
+                </div>
             </div>
             <div class="main-button">
-                <div><button>Google 검색</button></div>
-                <div><button>I'm Feeling Lucky</button></div>
+                <div><input class=google-button type="button" value="Google 검색"></div>
+                <div><input class=google-button type="button" value="I'm Feeling Lucky"></div>
             </div>
             <div class="main-blank"></div>
         </div>
-    </main>
+    <!-- </main> -->
 
-    <footer>
+    <!-- <footer> -->
         <div class="footer-container">
             <div class="footer-item footer-item-1">
                 <div class="footer-items"><a href="/">대한민국</a></div>
@@ -60,7 +70,8 @@
                 </div>
             </div>
         </div>
-    </footer>
+    <!-- </footer> -->
+    </div>
     
 </body>
 </html>
