@@ -2,17 +2,46 @@
     display: flex;
     justify-content:space-between;
     /* flex-shrink: 0; */
+    font-size: 18px;
+    align-items: center;
+    padding:6px;
 }
 
 .header-item-1 {
     display: flex;
+    margin-left:20px;
+    align-items: center;
     
 }
 .header-item-left {
     margin:15px;
-    color:#bdc1c6;
 }
 
+.menu1 {
+    border-radius: 50%;
+    padding: 15px 20px;
+    margin-top: 5px;
+    font-size: 20px;
+    position: relative;
+}
+.menu1:hover{
+    background-color: #383c41;
+}
+
+.menu1-content{
+    display: none;
+    position:absolute;
+    background-color: #383c41;
+    border-radius: 2px;
+    padding: 5px 10px;
+    width: 85px;
+    right:65px;
+}
+.menu1:hover + .menu1-content{
+    display:block;
+}
 .header-item-right {
-    margin:10px;
+    margin-left : 10px;
+    margin-right : 10px;
+    /* display: inline-block; */
 }

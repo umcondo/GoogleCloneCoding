@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="icon" type="image/png" href="./img/favicon.png">
     <script src="https://kit.fontawesome.com/2e802f42d3.js" crossorigin="anonymous"></script>
     <title>Google</title>
 </head>
@@ -22,9 +23,12 @@
             </div>
 
             <div class="header-item-1">
-                <div class="header-item-right"><a href="/">Gmail</a></div>
+                <div class="header-item-right" style="margin-top:2px;"><a href="/">Gmail</a></div>
                 <div class="header-item-right"><a href="/">이미지</a></div>
-                <div class="header-item-right"><a href="/"><img src="" alt="메뉴"></a></div>
+                <div>
+                    <div class="header-item-right menu1"><a href="/"><i class="fa-solid fa-bars"></i></a></div>
+                    <div class="menu1-content">Google 앱</div>
+                </div>
                 <div class="header-item-right"><button>로그인</button></div>
             </div>
         </div>
@@ -38,10 +42,12 @@
                 <div class=google-search>
                     <div class=search-items style="font-size:20px;color:gray;"><i class="fa-solid fa-magnifying-glass"></i></div>
                     <div class=search-items><input class=search-bar type="search"></div>
-                    <!-- <div class=search-items style="display:flex;"> -->
-                        <!-- <div><i class="fa-solid fa-xmark"></i></div> -->
-                        <div class=search-items style="font-size:25px;color:gray;cursor:pointer;"><i class="fa-solid fa-keyboard"></i></div>
-                        <div class=search-items style="font-size:25px;color:blue;cursor:pointer;"><i class="fa-solid fa-microphone-lines"></i></div>
+                        <div class="search-items keybo" style="font-size:25px;color:gray;cursor:pointer;"><i class="fa-solid fa-keyboard"></i>
+                            <div class=keybo-content>입력도구</div>
+                        </div>
+                        <div class="search-items mic" style="font-size:25px;color:blue;cursor:pointer;"><i class="fa-solid fa-microphone-lines"></i>
+                            <div class="mic-content">음성 검색</div>
+                        </div>
                     <!-- </div> -->
                 </div>
             </div>
