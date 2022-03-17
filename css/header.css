@@ -22,7 +22,7 @@
     padding: 15px 20px;
     margin-top: 5px;
     font-size: 20px;
-    position: relative;
+    /* position: relative; */
     cursor:pointer;
 }
 .menu1:hover{
@@ -36,7 +36,7 @@
     border-radius: 2px;
     padding: 5px 10px;
     width: 85px;
-    right:65px;
+    right:-20px;
 }
 .menu1:hover + .menu1-content{
     display:block;
